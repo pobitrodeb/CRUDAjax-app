@@ -13,8 +13,10 @@
 
   <section class="py-5">
         <div class="container">
+
         <div class="card">
                     <div class="card-header text-center bg-primary text-white"> LARAVEL CRUD with Ajax </div>
+                    <a href=""class="btn btn-success m-3 w-25" data-bs-toggle="modal" data-bs-target="#addeModal"> Add Product </a>
                     <div class="card-body">
                         <table class="table table-bordered">
                             <thead class="text-center">
@@ -41,6 +43,7 @@
             </div>
         </div>
   </section>
+  @include('home.modal');
    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
